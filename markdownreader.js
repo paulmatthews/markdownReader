@@ -15,7 +15,7 @@
 	document.body.innerHTML = '<div id="markdown-container"></div><div id="markdown-outline"></div><div id="markdown-backTop" onclick="window.scrollTo(0,0);"></div>';
 	window.onresize = showOutline;
 
-	var markdownConverter = new Showdown.converter({ extensions: ['table'] });
+	var markdownConverter = new Showdown.converter({ extensions: ['table', 'strike'] });
 	var lastText = null;
 
 	function updateMarkdown(text) {
@@ -66,7 +66,7 @@
 			outline.innerHTML = arrOutline.join('');
 			showOutline();
 		}
-		else outline.style.display = 'none'; 
+		else outline.style.display = 'none';
 	}
 
 	function showOutline() {

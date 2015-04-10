@@ -8,7 +8,7 @@
         var filter;
 
         filter = function(text) {
-            return text.replace(/--([\w|\W]+?)--/g, '<s>$1</s>');
+            return text.replace(/--(.+?)--/g, '<s>$1</s>');
         }
 
         return [{

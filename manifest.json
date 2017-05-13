@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
 	"name": "Markdown Reader-PM",
-	"version": "1.1.0",
-	"description": "Read markdown file in Chrome. Fork of Markdown Reader extension",
+	"version": "1.1.1",
+	"description": "Read markdown file in Chrome. Fork of Markdown Reader extension https://github.com/yaniswang/markdownReader/",
 	"icons": {
 		"128": "images/icon.png",
 		"16": "images/icon.png",
